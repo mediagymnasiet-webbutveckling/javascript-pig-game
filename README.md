@@ -23,16 +23,16 @@ Syftet med denna uppgift är att fördjupa sin kunskaper i Javascript genom att 
 ## Bra att veta
 För att koppla ett element som reagerar på musklick måste du först hämta elementet i DOM och sedan anropa metoden addEventListener().
 
-* Exempelvis börja med "SLÅ TÄRNING".
+Exempelvis börja med "SLÅ TÄRNING".
 
-const btnRoll = document.querySelector('.btn-roll');
+    const btnRoll = document.querySelector('.btn-roll');
 
-function rollDice() {
-  // Det här kommer hända när användaren klickar på "SLÅ TÄRNING"
+    function rollDice() {
+      // Det här kommer hända när användaren klickar på "SLÅ TÄRNING"
 
-}
+    }
 
-btnRoll.addEventListener('click', rollDice);
+    btnRoll.addEventListener('click', rollDice);
 
 Läs mer om Events och add EventListeners här: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 https://www.w3schools.com/jsref/met_element_addeventlistener.asp
@@ -52,7 +52,7 @@ Komma ihåg att du kan manipulera strängar med variabler för att spara ner på
 * Använd en bool-variabel om spelet är gameover eller inte 
 
 
-
+# Bild på Grisspelet
 ![Grisspelet](https://github.com/mediagymnasiet-webbutveckling/javascript-pig-game/blob/master/screen.PNG)
 
 
