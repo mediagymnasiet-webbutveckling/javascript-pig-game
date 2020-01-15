@@ -23,7 +23,7 @@ Syftet med denna uppgift är att fördjupa sin kunskaper i Javascript genom att 
 ## Bra att veta
 
 
-![Grisspelet](https://github.com/mediagymnasiet-webbutveckling/javascript-pig-game/blob/master/screen.png)
+![Grisspelet](https://github.com/mediagymnasiet-webbutveckling/javascript-pig-game/blob/master/screen.PNG)
 
 
 
