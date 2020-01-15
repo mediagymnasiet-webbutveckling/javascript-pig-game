@@ -21,7 +21,12 @@ Syftet med denna uppgift är att fördjupa sin kunskaper i Javascript genom att 
 
 
 ## Bra att veta
-För att koppla ett element som reagerar på musklick måste du först hämta elementet i DOM och sedan anropa metoden addEventListener().
+
+
+### Anävnda addEventListener för attt lyssna på händelser och trigga funktioner
+
+För att koppla ett element som reagerar på musklick måste du först hämta elementet i DOM 
+och sedan anropa metoden addEventListener().
 
 Exempelvis börja med "SLÅ TÄRNING".
 
@@ -39,14 +44,18 @@ https://www.w3schools.com/jsref/met_element_addeventlistener.asp
 
 I huudsak använder du 'click' som event, men det finns många att välja på. För att ändra vinst poängen i ett inputfält kan du istället använda 'change'. Alla olika typer av events som finns hittar du här: https://developer.mozilla.org/en-US/docs/Web/Events
 
-* För att slumpa fram tal i Javascript använder du Math.random(), men justerar så att du får ett tal mellan 1 och 6.
+### Slumpa fram tal
+För att slumpa fram tal i Javascript använder du Math.random(), men justerar så att du får ett tal mellan 1 och 6.
 
-* Byta bild kan du göra med anropa DOM-element med .src
+### Byta bild
+Byta bild kan du göra med anropa DOM-element med .src
 Exempelvis: dice1.srs = 'img/dice-6.png'
 Komma ihåg att du kan manipulera strängar med variabler för att spara ner på kod!
 
-* Kom ihåg att du kan toggla klasser med classList.toggle(). Exempelvis lämpligt för att byta aktiv spelare (class='active')
+### Ändra klass för att ändra style
+Kom ihåg att du kan toggla klasser med classList.toggle(). Exempelvis lämpligt för att byta aktiv spelare (class='active')
 
+### Annat
 * Andra metoder du kommer behöva är .textContent()
 
 * Använd en bool-variabel om spelet är gameover eller inte 
