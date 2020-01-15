@@ -3,13 +3,13 @@
 Syftet med denna uppgift är att fördjupa sin kunskaper i Javascript genom att göra ett interaktivt spel. Du får färdig HTML och CSS samt bilder och du skriver endast Javascript i app.js. Du använder dig av DOM för att interagera med HTML/CSS. För att reagera på en händelse (ex musklick) så att olika funktioner triggas använder du dig av metoden addEventListener().
 
 
-## Spelregler:
+## Spelregler
 
 * Spelet har två deltagare där vardera spelar var sin omgång.
-* För varje omgång "kastar" den ena spelaren tärning genom att klicka "Slå kast". Man får kasta tärning så många gånger man vill. Varje kast adderas till OMGÅNGSPOÄNG.  
+* För varje omgång "kastar" den ena spelaren tärning genom att klicka "SLÅ TÄRNING". Man får kasta tärning så många gånger man vill. Varje kast adderas till OMGÅNGSPOÄNG.  
 * MEN, om en deltagare slår en 1:a går alla poäng i den omgången förlorade. Efter det är det andra spelarens tur.
 * En spelare kan välja att stanna och välja "HÅLL POÄNG". Då adderas poängen i OMGÅNGSPOÄNG till den TOTAL:a poängen. Efter det är det andra spelarens tur.
-* Den spelare som når först 100 poäng på TOTAL poäng vinner spelet.
+* Den spelare som når först 100 poäng på "TOTAL POÄNG" vinner spelet.
 
 
 ## Dina tre utmaningar (extra)
@@ -21,6 +21,36 @@ Syftet med denna uppgift är att fördjupa sin kunskaper i Javascript genom att 
 
 
 ## Bra att veta
+För att koppla ett element som reagerar på musklick måste du först hämta elementet i DOM och sedan anropa metoden addEventListener().
+
+* Exempelvis börja med "SLÅ TÄRNING".
+
+const btnRoll = document.querySelector('.btn-roll');
+
+function rollDice() {
+  // Det här kommer hända när användaren klickar på "SLÅ TÄRNING"
+
+}
+
+btnRoll.addEventListener('click', rollDice);
+
+Läs mer om Events och add EventListeners här: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+https://www.w3schools.com/jsref/met_element_addeventlistener.asp
+
+I huudsak använder du 'click' som event, men det finns många att välja på. För att ändra vinst poängen i ett inputfält kan du istället använda 'change'. Alla olika typer av events som finns hittar du här: https://developer.mozilla.org/en-US/docs/Web/Events
+
+* För att slumpa fram tal i Javascript använder du Math.random(), men justerar så att du får ett tal mellan 1 och 6.
+
+* Byta bild kan du göra med anropa DOM-element med .src
+Exempelvis: dice1.srs = 'img/dice-6.png'
+Komma ihåg att du kan manipulera strängar med variabler för att spara ner på kod!
+
+* Kom ihåg att du kan toggla klasser med classList.toggle(). Exempelvis lämpligt för att byta aktiv spelare (class='active')
+
+* Andra metoder du kommer behöva är .textContent()
+
+* Använd en bool-variabel om spelet är gameover eller inte 
+
 
 
 ![Grisspelet](https://github.com/mediagymnasiet-webbutveckling/javascript-pig-game/blob/master/screen.PNG)
