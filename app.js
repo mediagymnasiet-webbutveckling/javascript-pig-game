@@ -72,54 +72,54 @@ rnd2 = Math.floor(Math.random() * 6) + 1;
 
 if (rnd1 == 1) {
 	var dice1 = document.getElementById("dice-1");
-	dice1.setAttribute("src", "dice-1.png");
+	dice1.setAttribute("src", "img/dice-1.png");
 }
 if (rnd1 == 2) {
 	var dice1 = document.getElementById("dice-1");
-	dice1.setAttribute("src", "dice-2.png");
+	dice1.setAttribute("src", "img/dice-2.png");
 }
 if (rnd1 == 3) {
 	var dice1 = document.getElementById("dice-1");
-	dice1.setAttribute("src", "dice-3.png");
+	dice1.setAttribute("src", "img/dice-3.png");
 }
 if (rnd1 == 4) {
 	var dice1 = document.getElementById("dice-1");
-	dice1.setAttribute("src", "dice-4.png");
+	dice1.setAttribute("src", "img/dice-4.png");
 }
 if (rnd1 == 5) {
 	var dice1 = document.getElementById("dice-1");
-	dice1.setAttribute("src", "dice-5.png");
+	dice1.setAttribute("src", "img/dice-5.png");
 }
 if (rnd1 == 6) {
 	var dice1 = document.getElementById("dice-1");
-	dice1.setAttribute("src", "dice-6.png");
+	dice1.setAttribute("src", "img/dice-6.png");
 }
 
 
 
 if (rnd2 == 1) {
 	var dice1 = document.getElementById("dice-2");
-	dice1.setAttribute("src", "dice-1.png");
+	dice1.setAttribute("src", "img/dice-1.png");
 }
 if (rnd2 == 2) {
 	var dice1 = document.getElementById("dice-2");
-	dice1.setAttribute("src", "dice-2.png");
+	dice1.setAttribute("src", "img/dice-2.png");
 }
 if (rnd2 == 3) {
 	var dice1 = document.getElementById("dice-2");
-	dice1.setAttribute("src", "dice-3.png");
+	dice1.setAttribute("src", "img/dice-3.png");
 }
 if (rnd2 == 4) {
 	var dice1 = document.getElementById("dice-2");
-	dice1.setAttribute("src", "dice-4.png");
+	dice1.setAttribute("src", "img/dice-4.png");
 }
 if (rnd2 == 5) {
 	var dice1 = document.getElementById("dice-2");
-	dice1.setAttribute("src", "dice-5.png");
+	dice1.setAttribute("src", "img/dice-5.png");
 }
 if (rnd2 == 6) {
 	var dice1 = document.getElementById("dice-2");
-	dice1.setAttribute("src", "dice-6.png");
+	dice1.setAttribute("src", "img/dice-6.png");
 }
 
 if (rnd1 != 1 && rnd2 != 1) {
