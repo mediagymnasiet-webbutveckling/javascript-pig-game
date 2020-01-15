@@ -23,20 +23,23 @@ Syftet med denna uppgift är att fördjupa sin kunskaper i Javascript genom att 
 ## Bra att veta
 
 
-### Anävnda addEventListener för attt lyssna på händelser och trigga funktioner
+### Använda addEventListener för attt lyssna på händelser och trigga funktioner
 
 För att koppla ett element som reagerar på musklick måste du först hämta elementet i DOM 
 och sedan anropa metoden addEventListener().
 
 Exempelvis börja med "SLÅ TÄRNING".
 
+    // Hämtar element i DOM
     const btnRoll = document.querySelector('.btn-roll');
 
+    // Funktionen som körs när knappen klickas
     function rollDice() {
       // Det här kommer hända när användaren klickar på "SLÅ TÄRNING"
 
     }
-
+    
+    // LÄgg till en lyssnare för eventet 'click' som kör funktionen rollDice när det inträffar
     btnRoll.addEventListener('click', rollDice);
 
 Läs mer om Events och add EventListeners här: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
@@ -49,8 +52,8 @@ För att slumpa fram tal i Javascript använder du Math.random(), men justerar s
 
 ### Byta bild
 Byta bild kan du göra med anropa DOM-element med .src
-Exempelvis: dice1.srs = 'img/dice-6.png'
-Komma ihåg att du kan manipulera strängar med variabler för att spara ner på kod!
+Exempelvis: dice1.src = 'img/dice-6.png'
+Kom ihåg att du kan manipulera strängar med variabler för att spara ner på kod!
 
 ### Ändra klass för att ändra style
 Kom ihåg att du kan toggla klasser med classList.toggle(). Exempelvis lämpligt för att byta aktiv spelare (class='active')
@@ -59,7 +62,6 @@ Kom ihåg att du kan toggla klasser med classList.toggle(). Exempelvis lämpligt
 * Andra metoder du kommer behöva är .textContent()
 
 * Använd en bool-variabel om spelet är gameover eller inte 
-
 
 # Bild på Grisspelet
 ![Grisspelet](https://github.com/mediagymnasiet-webbutveckling/javascript-pig-game/blob/master/screen.PNG)
