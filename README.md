@@ -1,23 +1,26 @@
-# javascript-pig-game
+# Javascript - Grisspelet   
+
+Syftet med denna uppgift är att fördjupa sin kunskaper i Javascript genom att göra ett interaktiv spel. Du får färdig HTML och CSS och skriver endast Javascript i app.js. Du använder dig av DOM för att interagera med HTML/CSS. För att reagera på en händelse (ex musklick) så att olika funktioner triggas använder du dig av metoden addEventListener().
 
 
-GAME RULES:
+## Spelregler:
 
-- The game has 2 players, playing in rounds
-- In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score
-- BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
-- The player can choose to 'Hold', which means that his ROUND score gets added to his GLOBAL score. After that, it's the next player's turn
-- The first player to reach 100 points on GLOBAL score wins the game
-
-
-YOUR 3 CHALLENGES
-Change the game to follow these rules:
-
-1. A player looses his ENTIRE score when he rolls two 6 in a row. After that, it's the next player's turn. (Hint: Always save the previous dice roll in a separate variable)
-2. Add an input field to the HTML where players can set the winning score, so that they can change the predefined score of 100. (Hint: you can read that value with the .value property in JavaScript. This is a good oportunity to use google to figure this out :)
-3. Add another dice to the game, so that there are two dices now. The player looses his current score when one of them is a 1. (Hint: you will need CSS to position the second dice, so take a look at the CSS code for the first one.)
+* Spelet har två deltagare där varje spelar var sin omgång
+* För varje omgång "kastar" den ena spelaren tärning genom att klicka "Slå kast". Man får kasta tärning så många gånger man vill. Varje kast adderas till ROUND poäng  
+* MEN, om spelare slår en 1 går alla päng i ROUND förlorade. Efter det är det nästa spelares tur.
+* En spelare kan välja att stanna och välja "Hold". Då adderas poängen i ROUND till GLOBALA poängen. Efter det är det nästa spelares tur.
+* Den spelare som når först 100 poäng på GLOBAL vinner spelet
 
 
-TIPS & TRIX
+
+## Dina tre utmaningar (extra)
+Ändra spelets regler genom att lägga till de här förutsättningarna.
+
+1. En spelare förlorar HELA sin poängsumma om två 6:or slås direkt efter varandra. Efter det är det den andra spelarens tur. (Tips: Spara alltid föregående tärningskast i en separat variabel)
+2. Lägg till ett inputfält i HTML där man kan ändra antal poäng för att vinna spelet.
+3. Lägg till en till tärning till spelet så att du har två tärningar. En spelare förlorar poängen i omgången om en av tärningarna är en 1:a. (Tips: Här får du ändra lite i CSS för att placera två tärningarn istället för en).
+
+
+## Bra att veta
 
 
