@@ -9,7 +9,7 @@ Syftet med denna uppgift är att fördjupa sin kunskaper i Javascript genom att 
 * För varje omgång "kastar" den ena spelaren tärning genom att klicka "SLÅ TÄRNING". Man får kasta tärning så många gånger man vill. Varje kast adderas till OMGÅNGSPOÄNG.  
 * MEN, om en deltagare slår en 1:a går alla poäng i den omgången förlorade. Efter det är det andra spelarens tur.
 * En spelare kan välja att stanna och välja "HÅLL POÄNG". Då adderas poängen i OMGÅNGSPOÄNG till den TOTAL:a poängen. Efter det är det andra spelarens tur.
-* Den spelare som når först 100 poäng på "TOTAL POÄNG" vinner spelet.
+* Den spelare som når först 100 poäng på "TOTAL POÄNG" vinner spelet. Då ska det stå "VINNARE" istället för spelarens namn. Man ska inte kunna klicka på tärningarna igen. Endast att man kan klicka "NYTT SPEL".
 
 
 ## Dina tre utmaningar (extra)
